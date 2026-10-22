@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Center | Introduction to Java</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="top-nav">
+            <div class="site-logo">
+                <img src="images/JavaCenterLogo.png" alt="Java Center logo">
+                <a class="logo" href="index.html">Java Center</a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a class="active" href="lesson.html">Learn</a>
+                <a href="#">Java Library</a>
+                <a href="#">Practice</a>
+                <a href="index.html#footer">About</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="lesson-layout">
+        <aside class="side-nav">
+            <h2>Java Basics</h2>
+            <a class="current" href="lesson.html">1. Introduction</a>
+            <a href="#">2. Variables</a>
+            <a href="#">3. Data Types</a>
+            <a href="#">4. Operators</a>
+            <a href="#">5. User Input</a>
+            <a href="#">6. Comments</a>
+
+            <div class="progress-box">
+                <p>Course Progress</p>
+                <div class="progress-bar">
+                    <div></div>
+                </div>
+                <small>1 of 20 lessons</small>
+            </div>
+        </aside>
+
+        <article class="lesson-content">
+            <p class="breadcrumb">Home / Learn / Java Basics / Introduction</p>
+
+            <h1>Introduction to Java</h1>
+            <p class="lesson-lead">Java is a programming language used to build many different types of applications. Before learning the details, it helps to see what a basic Java program looks like.</p>
+
+            <h2>Your first Java program</h2>
+            <p>The example below prints a short message to the screen.</p>
+
+            <div class="code-block">
+                <div class="code-title">Main.java</div>
+                <pre><code>public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, Java!");
+    }
+}</code></pre>
+            </div>
+
+            <h2>What is happening here?</h2>
+            <p>The class is named <code>Main</code>. Inside the class is the <code>main</code> method, which is where the program starts. The <code>System.out.println()</code> statement displays text in the console.</p>
+
+            <div class="lesson-note tip">
+                <strong>Beginner Tip</strong>
+                <p>Java is case-sensitive. For example, <code>String</code> and <code>string</code> are not the same thing.</p>
+            </div>
+
+            <div class="lesson-note mistake">
+                <strong>Common Mistake</strong>
+                <p>Make sure your class name matches the file name. A class named <code>Main</code> should be saved in a file named <code>Main.java</code>.</p>
+            </div>
+
+            <div class="lesson-buttons">
+                <a class="button secondary" href="index.html">← Back Home</a>
+                <a class="button primary" href="#">Next Lesson →</a>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div>
+            <a class="logo" href="index.html">Java Center</a>
+            <p>Clear lessons for new Java programmers</p>
+        </div>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="lesson.html">Learn</a>
+            <a href="#">Java Library</a>
+            <a href="#">Practice</a>
+        </div>
+    </footer>
+</body>
+</html>
